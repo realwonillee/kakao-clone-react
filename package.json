@@ -1,0 +1,45 @@
+{
+  "name": "kakao-clone",
+  "version": "1.0.0",
+  "description": "Kakao Talk Clone on React & Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --port 3000 --mode development --hot",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "realWonIlLee",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1",
+    "styled-reset": "^4.3.4",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "babel-loader": "8.0.2",
+    "file-loader": "^6.2.0",
+    "fork-ts-checker-webpack-plugin": "^6.1.0",
+    "html-webpack-plugin": "^4.5.1",
+    "ts-loader": "^8.0.14",
+    "tslint": "^6.1.3",
+    "tslint-react": "^5.0.0",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
