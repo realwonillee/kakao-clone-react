@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Header, Nav, StatusBar } from "../Common";
+import { Header, DefaultNav as Nav, StatusBar } from "../Common";
 import ProfileImage from "../../../public/profile.png";
 import styled from "styled-components";
 
@@ -26,6 +26,7 @@ const FriendColumn = styled.div`
 
 const FriendName = styled.div`
   margin-bottom: 5px;
+  font-weight: 350;
 `;
 
 const FriendText = styled.div`
@@ -46,7 +47,7 @@ const Presenter: React.FC = (_) => (
       <title>Kakao | Chats</title>
     </Helmet>
     <StatusBar agency={"KT"} />
-    <Header />
+    <Header header_name={"Chats"} />
     <Main>
       <ul>
         <li>

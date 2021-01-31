@@ -40,8 +40,10 @@ export const StatusBar: React.FC<IProps> = ({ agency }) => {
 
   const timer = (): void => {
     const date = new Date();
-    setHours(date.getHours().toString());
-    setMinutes(date.getMinutes().toString());
+    const hour: number = date.getHours();
+    const minute: number = date.getMinutes();
+    setHours(hour < 10 ? "0" + hour : "" + hour);
+    setMinutes(minute < 10 ? "0" + minute : "" + minute);
   };
 
   useEffect(() => {
