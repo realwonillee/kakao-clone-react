@@ -39,7 +39,7 @@ function FriendsContainer() {
                 }
             </Helmet>
             <BodyWrapper>
-                <FriendsHeaderNav headerName={'Chats'} />
+                <FriendsHeaderNav headerName={'Friends'} />
                 <FriendsList friendsList={friendsList} />
                 <FriendsFooterNav />
             </BodyWrapper>
